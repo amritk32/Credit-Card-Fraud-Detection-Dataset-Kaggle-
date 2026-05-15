@@ -1,5 +1,6 @@
-Credit Card Fraud Detection using XGBoost
+**Credit Card Fraud Detection using XGBoost - **
 A production-style Machine Learning project focused on detecting fraudulent credit card transactions using advanced feature engineering and gradient boosting techniques.
+
 This project demonstrates:
 End-to-End ML Pipeline
 Feature Engineering
@@ -10,8 +11,8 @@ Production-ready API Inference Workflow
 
 Dataset Source - https://www.kaggle.com/datasets/gzdekzlkaya/credit-card-fraud-detection-dataset
 
-🚀 Project Overview
-Credit card fraud detection is a highly imbalanced classification problem where fraudulent transactions represent only a tiny fraction of total transactions.
+**🚀 Project Overview**
+**Credit card fraud detection is a highly imbalanced classification problem where fraudulent transactions represent only a tiny fraction of total transactions.**
 This project uses:
 XGBoost Classifier
 Custom fraud-risk feature engineering
@@ -20,7 +21,7 @@ FastAPI deployment pipeline
 The goal is to maximize fraud detection performance while maintaining high precision and recall.
 
 
-📊 Model Performance
+**📊 Model Performance**
 Performance Metrics
 F1-Score - 0.8852
 Precision - 0.9529
@@ -30,7 +31,7 @@ Accuracy - High
 Key Insight - The model achieves very high precision while maintaining strong recall,
 making it effective for identifying fraudulent transactions with fewer false positives.
 
-⚙️ Tech Stack
+**⚙️ Tech Stack**
 Python
 Pandas
 Scikit-Learn
@@ -38,16 +39,18 @@ XGBoost
 FastAPI
 Joblib
 
-🔥 API Deployment
+**🔥 API Deployment**
 The trained model is deployed using FastAPI.
 Start API Server
 Bash
 uvicorn app:app --reload
-📌 API Endpoint
+
+**📌 API Endpoint**
 POST /predict
 Predict whether a transaction is fraudulent.
 Example Request
-JSON
+
+**JSON**
 {
   "Time": 10000,
   "V3": -1.5,
@@ -78,12 +81,14 @@ JSON
   "V28": 0.2,
   "Amount": 250
 }
-📥 Example Response
-JSON
+
+
+**📥 Example Response**
+**JSON**
 {
   "fraud_prediction": 1,
   "fraud_probability": 0.9734
 }
 
-👨‍💻 Author
+**👨‍💻 Author**
 Built by Amrit Gorai as part of hands-on Machine Learning and MLOps practice focused on production-ready AI systems.
