@@ -33,7 +33,7 @@ sample_data = {
 }
 
 response = requests.post(
-    "http://127.0.0.1:8000/predict2",
+    "http://127.0.0.1:8000/predict",
     json=sample_data
 )
 
