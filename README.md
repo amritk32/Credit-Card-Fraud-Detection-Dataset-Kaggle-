@@ -84,3 +84,6 @@ JSON
   "fraud_prediction": 1,
   "fraud_probability": 0.9734
 }
+
+👨‍💻 Author
+Built by Amrit Gorai as part of hands-on Machine Learning and MLOps practice focused on production-ready AI systems.
